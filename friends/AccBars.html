@@ -1,0 +1,22 @@
+<div>
+    <div id="top-nav">
+      <a href="accueil.php">Home</a>
+      <a href="filiére.php">Filiere</a>
+      <a href="page3.php">about</a>
+      <a href="#" onclick="document.getElementById('myTable').style='display:block;transition:6s all;'">S'inscrire</a>
+       <span class="connect-section">
+        <form action="login.php" id="myForm" Method="POST">
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <input type="password" name="pwd" id="pass" placeholder="Enter your password" required>
+        <button  class="subn" onclick="valider()" name="submit">Connexion</button>
+    </form>
+       </span>
+         
+    </div>
+    <div id="side-nav">
+        <a href="#">Home</a>
+        <a href="#">Filiere</a>
+        <a href="#"> about</a>
+        <a href="#" onclick="document.getElementById('myTable').style='display:block'">S'inscrire</a>
+    </div>
+</div>
